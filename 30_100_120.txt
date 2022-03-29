@@ -1,0 +1,332 @@
+[2022-03-09T23:44:30.514Z] Experiment started live_node_30_100
+[2022-03-09T23:44:31.715Z] Bind change first
+[2022-03-09T23:44:31.768Z] Interim check live_node_30_100 phase1-start
+[2022-03-09T23:44:32.864Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.876Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.878Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.879Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.881Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.885Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.887Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.890Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.892Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.894Z] An error occurred while processing task undefined Error: Request failed with status code 407
+[2022-03-09T23:44:32.894Z] Phase 1 All items are succesfully processed !
+[2022-03-09T23:44:32.895Z] Time taken in phase 1 0.018766666666666668
+[2022-03-09T23:44:32.895Z] Time taken in phase 1 0.018766666666666668
+[2022-03-09T23:44:32.929Z] Interim check live_node_30_100 phase1-end
+[2022-03-09T23:44:32.963Z] Interim check live_node_30_100 phase1-end
+[2022-03-09T23:44:33.062Z] Bind change second
+[2022-03-09T23:44:33.091Z] Error: getaddrinfo ENOTFOUND 7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:72:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.26.0'
+    },
+    method: 'get',
+    url: 'http://7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET / HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.26.0\r\n' +
+        'Host: 7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _currentUrl: 'http://7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net/',
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2022-03-09T23:44:33.094Z] Error: getaddrinfo ENOTFOUND 7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:72:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: '7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.26.0'
+    },
+    method: 'get',
+    url: 'http://7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+    data: undefined
+  },
+  request: <ref *1> Writable {
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: true,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    _events: [Object: null prototype] {
+      response: [Function: handleResponse],
+      error: [Function: handleRequestError],
+      socket: [Function: handleRequestSocket]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: 10485760,
+      protocol: 'http:',
+      path: '/',
+      method: 'GET',
+      headers: [Object],
+      agent: undefined,
+      agents: [Object],
+      auth: undefined,
+      hostname: '7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+      port: null,
+      nativeProtocols: [Object],
+      pathname: '/'
+    },
+    _ended: true,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 0,
+    _requestBodyBuffers: [],
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [Socket],
+      _header: 'GET / HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.26.0\r\n' +
+        'Host: 7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: '7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _currentUrl: 'http://7ae4b1f1-e8a0-4472-a3cb-1cc3bb90d943.live_node_30_100.phase1-end.ttlexp.exp.net-measurement.net/',
+    [Symbol(kCapture)]: false
+  },
+  response: undefined,
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2022-03-09T23:44:33.123Z] Interim check live_node_30_100 phase1-end

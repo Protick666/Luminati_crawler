@@ -1,0 +1,24 @@
+{
+  "name": "ttl_exp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "axios-https-proxy-fix": "^0.17.1",
+    "https": "^1.0.0",
+    "lodash": "^4.17.21",
+    "log-timestamp": "^0.3.0",
+    "messaging-api-telegram": "^1.1.0",
+    "needle": "^3.0.0",
+    "request-promise": "^4.2.6",
+    "telegraf": "^3.38.0",
+    "uuid": "^8.3.2"
+  }
+}
